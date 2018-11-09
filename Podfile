@@ -6,6 +6,11 @@ target 'TareasApp' do
   use_frameworks!
 
   # Pods for TareasApp
+  #Others
+  pod 'Hue'
+  pod 'McPicker'
+  
+  #Firebase
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'

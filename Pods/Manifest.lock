@@ -105,7 +105,9 @@ PODS:
     - gRPC-Core (= 1.14.0)
     - gRPC-RxLibrary (= 1.14.0)
   - GTMSessionFetcher/Core (1.2.0)
+  - Hue (3.0.1)
   - leveldb-library (1.20)
+  - McPicker (1.0.0)
   - nanopb (0.3.8):
     - nanopb/decode (= 0.3.8)
     - nanopb/encode (= 0.3.8)
@@ -117,6 +119,8 @@ DEPENDENCIES:
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Firestore
+  - Hue
+  - McPicker
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -136,7 +140,9 @@ SPEC REPOS:
     - gRPC-ProtoRPC
     - gRPC-RxLibrary
     - GTMSessionFetcher
+    - Hue
     - leveldb-library
+    - McPicker
     - nanopb
     - Protobuf
 
@@ -157,10 +163,12 @@ SPEC CHECKSUMS:
   gRPC-ProtoRPC: 76f6053639a842e1fb45fa82aa598bf3f4d9f66f
   gRPC-RxLibrary: 3c305f32155024b116b780f389323c73a28197e6
   GTMSessionFetcher: 0c4baf0a73acd0041bf9f71ea018deedab5ea84e
+  Hue: 93e852fa6211ab35922ad8c293f51c43d6c79eb2
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  McPicker: 130183cd3d22fc6933ea9e63c5a0d0d1becc0122
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
   Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
 
-PODFILE CHECKSUM: b31424524495d37a63d42aa5ae21e804988b9b2b
+PODFILE CHECKSUM: 2c9f2c4c139e3c6dd68a2b8741ad41b9a0f56d18
 
 COCOAPODS: 1.5.3

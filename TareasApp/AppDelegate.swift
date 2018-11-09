@@ -19,6 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         FirebaseApp.configure()
         
+        let settings = (Constants.baseDB).settings
+        settings.areTimestampsInSnapshotsEnabled = true
+        (Constants.baseDB).settings = settings
         
         return true
     }
