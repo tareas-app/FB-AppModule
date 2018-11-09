@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>740957850942-ta1k1meee6t66q4fk9lgpjttr5514q8k.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.740957850942-ta1k1meee6t66q4fk9lgpjttr5514q8k</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDAttS9zQSR3kTg_Wl9a6tncT90Q-ThzIE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>740957850942</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.gindora.TareasApp</string>
+	<key>PROJECT_ID</key>
+	<string>tareas-d98b3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tareas-d98b3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:740957850942:ios:de30bb708e6c562b</string>
+	<key>DATABASE_URL</key>
+	<string>https://tareas-d98b3.firebaseio.com</string>
+</dict>
+</plist>

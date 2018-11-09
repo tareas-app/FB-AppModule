@@ -14,6 +14,7 @@
 		7C195A832195AB6700862F9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C195A812195AB6700862F9A /* LaunchScreen.storyboard */; };
 		7C195A8E2195AB6700862F9A /* TareasAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C195A8D2195AB6700862F9A /* TareasAppTests.swift */; };
 		7C195A992195AB6700862F9A /* TareasAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C195A982195AB6700862F9A /* TareasAppUITests.swift */; };
+		7CBBA63F2195B2C200EF269D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CBBA63E2195B2C200EF269D /* GoogleService-Info.plist */; };
 		9ED250F78484FFD5524A8A98 /* Pods_TareasApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFA408D6CDFF4FA5AF5FCED /* Pods_TareasApp.framework */; };
 		AD7463BA631348046438E2EE /* Pods_TareasAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08451FCE4ECD9D894819ABCC /* Pods_TareasAppUITests.framework */; };
 		C9AC8C526938B9986111908A /* Pods_TareasAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E6744CC4DCE4EA16E2470E /* Pods_TareasAppTests.framework */; };
@@ -53,6 +54,7 @@
 		7C195A942195AB6700862F9A /* TareasAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TareasAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C195A982195AB6700862F9A /* TareasAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TareasAppUITests.swift; sourceTree = "<group>"; };
 		7C195A9A2195AB6700862F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CBBA63E2195B2C200EF269D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7D0FDDF45DE6767C1449E536 /* Pods-TareasApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TareasApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TareasApp/Pods-TareasApp.release.xcconfig"; sourceTree = "<group>"; };
 		8C194362452B65F0FFFD8116 /* Pods-TareasAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TareasAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TareasAppUITests/Pods-TareasAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		92879460AAF2888AEEB748DA /* Pods-TareasApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TareasApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TareasApp/Pods-TareasApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 		7C195A772195AB6600862F9A /* TareasApp */ = {
 			isa = PBXGroup;
 			children = (
+				7CBBA63E2195B2C200EF269D /* GoogleService-Info.plist */,
 				7C195A782195AB6600862F9A /* AppDelegate.swift */,
 				7C195A7A2195AB6600862F9A /* ViewController.swift */,
 				7C195A7C2195AB6600862F9A /* Main.storyboard */,
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C195A832195AB6700862F9A /* LaunchScreen.storyboard in Resources */,
+				7CBBA63F2195B2C200EF269D /* GoogleService-Info.plist in Resources */,
 				7C195A802195AB6700862F9A /* Assets.xcassets in Resources */,
 				7C195A7E2195AB6600862F9A /* Main.storyboard in Resources */,
 			);
