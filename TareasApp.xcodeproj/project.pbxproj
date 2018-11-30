@@ -18,6 +18,21 @@
 		7CBBA6412195B55F00EF269D /* bg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7CBBA6402195B55E00EF269D /* bg.jpeg */; };
 		7CBBA6432195B5B400EF269D /* Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBBA6422195B5B400EF269D /* Btn.png */; };
 		7CBBA6482195E6E600EF269D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBBA6472195E6E600EF269D /* Constants.swift */; };
+		7CF43C7D21B15BA200AD1DF1 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF43C7C21B15BA200AD1DF1 /* TabbarViewController.swift */; };
+		7CF43C8E21B1685600AD1DF1 /* MyTasksG.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF43C8821B1685600AD1DF1 /* MyTasksG.png */; };
+		7CF43C8F21B1685600AD1DF1 /* ProfileG.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF43C8921B1685600AD1DF1 /* ProfileG.png */; };
+		7CF43C9021B1685600AD1DF1 /* MyTasksB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF43C8A21B1685600AD1DF1 /* MyTasksB.png */; };
+		7CF43C9121B1685600AD1DF1 /* OpenTasksG.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF43C8B21B1685600AD1DF1 /* OpenTasksG.png */; };
+		7CF43C9221B1685600AD1DF1 /* OpenTasksB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF43C8C21B1685600AD1DF1 /* OpenTasksB.png */; };
+		7CF43C9321B1685600AD1DF1 /* ProfileB.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF43C8D21B1685600AD1DF1 /* ProfileB.png */; };
+		7CF43C9821B16BDE00AD1DF1 /* OpenTasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF43C9721B16BDE00AD1DF1 /* OpenTasksTableViewController.swift */; };
+		7CF43C9A21B16BEF00AD1DF1 /* MyTasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF43C9921B16BEF00AD1DF1 /* MyTasksTableViewController.swift */; };
+		7CF43C9C21B16CEA00AD1DF1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF43C9B21B16CEA00AD1DF1 /* ProfileViewController.swift */; };
+		7CF43C9E21B16FAE00AD1DF1 /* OpenTasksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF43C9D21B16FAE00AD1DF1 /* OpenTasksTableViewCell.swift */; };
+		7CF43CA021B1753600AD1DF1 /* BtnSignIn.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF43C9F21B1753600AD1DF1 /* BtnSignIn.png */; };
+		7CF43CA221B1765A00AD1DF1 /* OpenTaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF43CA121B1765A00AD1DF1 /* OpenTaskDetailViewController.swift */; };
+		7CF43CA421B1770900AD1DF1 /* BtnSignInEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF43CA321B1770900AD1DF1 /* BtnSignInEmpty.png */; };
+		7CF43CA621B1792400AD1DF1 /* OpenTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF43CA521B1792400AD1DF1 /* OpenTask.swift */; };
 		9ED250F78484FFD5524A8A98 /* Pods_TareasApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFA408D6CDFF4FA5AF5FCED /* Pods_TareasApp.framework */; };
 		AD7463BA631348046438E2EE /* Pods_TareasAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08451FCE4ECD9D894819ABCC /* Pods_TareasAppUITests.framework */; };
 		C9AC8C526938B9986111908A /* Pods_TareasAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E6744CC4DCE4EA16E2470E /* Pods_TareasAppTests.framework */; };
@@ -62,6 +77,21 @@
 		7CBBA6422195B5B400EF269D /* Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Btn.png; sourceTree = "<group>"; };
 		7CBBA6442195E4C800EF269D /* TareasApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TareasApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		7CBBA6472195E6E600EF269D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7CF43C7C21B15BA200AD1DF1 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		7CF43C8821B1685600AD1DF1 /* MyTasksG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MyTasksG.png; sourceTree = "<group>"; };
+		7CF43C8921B1685600AD1DF1 /* ProfileG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProfileG.png; sourceTree = "<group>"; };
+		7CF43C8A21B1685600AD1DF1 /* MyTasksB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MyTasksB.png; sourceTree = "<group>"; };
+		7CF43C8B21B1685600AD1DF1 /* OpenTasksG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OpenTasksG.png; sourceTree = "<group>"; };
+		7CF43C8C21B1685600AD1DF1 /* OpenTasksB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OpenTasksB.png; sourceTree = "<group>"; };
+		7CF43C8D21B1685600AD1DF1 /* ProfileB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProfileB.png; sourceTree = "<group>"; };
+		7CF43C9721B16BDE00AD1DF1 /* OpenTasksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTasksTableViewController.swift; sourceTree = "<group>"; };
+		7CF43C9921B16BEF00AD1DF1 /* MyTasksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTasksTableViewController.swift; sourceTree = "<group>"; };
+		7CF43C9B21B16CEA00AD1DF1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7CF43C9D21B16FAE00AD1DF1 /* OpenTasksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTasksTableViewCell.swift; sourceTree = "<group>"; };
+		7CF43C9F21B1753600AD1DF1 /* BtnSignIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BtnSignIn.png; sourceTree = "<group>"; };
+		7CF43CA121B1765A00AD1DF1 /* OpenTaskDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTaskDetailViewController.swift; sourceTree = "<group>"; };
+		7CF43CA321B1770900AD1DF1 /* BtnSignInEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BtnSignInEmpty.png; sourceTree = "<group>"; };
+		7CF43CA521B1792400AD1DF1 /* OpenTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTask.swift; sourceTree = "<group>"; };
 		7D0FDDF45DE6767C1449E536 /* Pods-TareasApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TareasApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TareasApp/Pods-TareasApp.release.xcconfig"; sourceTree = "<group>"; };
 		8C194362452B65F0FFFD8116 /* Pods-TareasAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TareasAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TareasAppUITests/Pods-TareasAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		92879460AAF2888AEEB748DA /* Pods-TareasApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TareasApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TareasApp/Pods-TareasApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -136,14 +166,17 @@
 				7CBBA6472195E6E600EF269D /* Constants.swift */,
 				7CBBA63E2195B2C200EF269D /* GoogleService-Info.plist */,
 				7C195A782195AB6600862F9A /* AppDelegate.swift */,
+				7CF43C9521B16BA000AD1DF1 /* OpenTasks */,
+				7CF43C9421B16B9100AD1DF1 /* MyTasks */,
+				7CF43C9621B16BA700AD1DF1 /* Profile */,
 				7C195A7A2195AB6600862F9A /* ViewController.swift */,
 				7C195A7C2195AB6600862F9A /* Main.storyboard */,
 				7C195A7F2195AB6700862F9A /* Assets.xcassets */,
 				7C195A812195AB6700862F9A /* LaunchScreen.storyboard */,
-				7C195A842195AB6700862F9A /* Info.plist */,
-				7CBBA6402195B55E00EF269D /* bg.jpeg */,
-				7CBBA6422195B5B400EF269D /* Btn.png */,
 				7CBBA6442195E4C800EF269D /* TareasApp-Bridging-Header.h */,
+				7CF43C7C21B15BA200AD1DF1 /* TabbarViewController.swift */,
+				7C195A842195AB6700862F9A /* Info.plist */,
+				7CF43C7E21B164F800AD1DF1 /* Assets */,
 			);
 			path = TareasApp;
 			sourceTree = "<group>";
@@ -164,6 +197,58 @@
 				7C195A9A2195AB6700862F9A /* Info.plist */,
 			);
 			path = TareasAppUITests;
+			sourceTree = "<group>";
+		};
+		7CF43C7E21B164F800AD1DF1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7CBBA6402195B55E00EF269D /* bg.jpeg */,
+				7CBBA6422195B5B400EF269D /* Btn.png */,
+				7CF43C9F21B1753600AD1DF1 /* BtnSignIn.png */,
+				7CF43CA321B1770900AD1DF1 /* BtnSignInEmpty.png */,
+				7CF43C7F21B1650000AD1DF1 /* TabBarIcons */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		7CF43C7F21B1650000AD1DF1 /* TabBarIcons */ = {
+			isa = PBXGroup;
+			children = (
+				7CF43C8A21B1685600AD1DF1 /* MyTasksB.png */,
+				7CF43C8821B1685600AD1DF1 /* MyTasksG.png */,
+				7CF43C8C21B1685600AD1DF1 /* OpenTasksB.png */,
+				7CF43C8B21B1685600AD1DF1 /* OpenTasksG.png */,
+				7CF43C8D21B1685600AD1DF1 /* ProfileB.png */,
+				7CF43C8921B1685600AD1DF1 /* ProfileG.png */,
+			);
+			path = TabBarIcons;
+			sourceTree = "<group>";
+		};
+		7CF43C9421B16B9100AD1DF1 /* MyTasks */ = {
+			isa = PBXGroup;
+			children = (
+				7CF43C9921B16BEF00AD1DF1 /* MyTasksTableViewController.swift */,
+			);
+			path = MyTasks;
+			sourceTree = "<group>";
+		};
+		7CF43C9521B16BA000AD1DF1 /* OpenTasks */ = {
+			isa = PBXGroup;
+			children = (
+				7CF43CA521B1792400AD1DF1 /* OpenTask.swift */,
+				7CF43C9721B16BDE00AD1DF1 /* OpenTasksTableViewController.swift */,
+				7CF43C9D21B16FAE00AD1DF1 /* OpenTasksTableViewCell.swift */,
+				7CF43CA121B1765A00AD1DF1 /* OpenTaskDetailViewController.swift */,
+			);
+			path = OpenTasks;
+			sourceTree = "<group>";
+		};
+		7CF43C9621B16BA700AD1DF1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7CF43C9B21B16CEA00AD1DF1 /* ProfileViewController.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		DA22C7DE787DEBE0DA5E67A1 /* Pods */ = {
@@ -290,10 +375,18 @@
 			files = (
 				7CBBA6432195B5B400EF269D /* Btn.png in Resources */,
 				7CBBA6412195B55F00EF269D /* bg.jpeg in Resources */,
+				7CF43C9321B1685600AD1DF1 /* ProfileB.png in Resources */,
 				7C195A832195AB6700862F9A /* LaunchScreen.storyboard in Resources */,
+				7CF43C8E21B1685600AD1DF1 /* MyTasksG.png in Resources */,
 				7CBBA63F2195B2C200EF269D /* GoogleService-Info.plist in Resources */,
 				7C195A802195AB6700862F9A /* Assets.xcassets in Resources */,
+				7CF43CA021B1753600AD1DF1 /* BtnSignIn.png in Resources */,
+				7CF43C9121B1685600AD1DF1 /* OpenTasksG.png in Resources */,
 				7C195A7E2195AB6600862F9A /* Main.storyboard in Resources */,
+				7CF43C9021B1685600AD1DF1 /* MyTasksB.png in Resources */,
+				7CF43C9221B1685600AD1DF1 /* OpenTasksB.png in Resources */,
+				7CF43CA421B1770900AD1DF1 /* BtnSignInEmpty.png in Resources */,
+				7CF43C8F21B1685600AD1DF1 /* ProfileG.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,8 +510,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CF43C7D21B15BA200AD1DF1 /* TabbarViewController.swift in Sources */,
+				7CF43C9821B16BDE00AD1DF1 /* OpenTasksTableViewController.swift in Sources */,
+				7CF43C9E21B16FAE00AD1DF1 /* OpenTasksTableViewCell.swift in Sources */,
 				7C195A7B2195AB6600862F9A /* ViewController.swift in Sources */,
+				7CF43CA221B1765A00AD1DF1 /* OpenTaskDetailViewController.swift in Sources */,
 				7C195A792195AB6600862F9A /* AppDelegate.swift in Sources */,
+				7CF43CA621B1792400AD1DF1 /* OpenTask.swift in Sources */,
+				7CF43C9C21B16CEA00AD1DF1 /* ProfileViewController.swift in Sources */,
+				7CF43C9A21B16BEF00AD1DF1 /* MyTasksTableViewController.swift in Sources */,
 				7CBBA6482195E6E600EF269D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -599,7 +699,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4UE285LHLQ;
 				INFOPLIST_FILE = TareasApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gindora.TareasApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TareasApp/TareasApp-Bridging-Header.h";
@@ -618,7 +721,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4UE285LHLQ;
 				INFOPLIST_FILE = TareasApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gindora.TareasApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TareasApp/TareasApp-Bridging-Header.h";
@@ -636,7 +742,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4UE285LHLQ;
 				INFOPLIST_FILE = TareasAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gindora.TareasAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -654,7 +764,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4UE285LHLQ;
 				INFOPLIST_FILE = TareasAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gindora.TareasAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -671,7 +785,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4UE285LHLQ;
 				INFOPLIST_FILE = TareasAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gindora.TareasAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -688,7 +806,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4UE285LHLQ;
 				INFOPLIST_FILE = TareasAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gindora.TareasAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
