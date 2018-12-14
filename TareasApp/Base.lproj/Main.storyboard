@@ -39,7 +39,7 @@
                                     <constraint firstAttribute="height" constant="49" id="SpQ-2A-3bX"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Inlogge" backgroundImage="Btn.png">
+                                <state key="normal" title="Inloggen" backgroundImage="Btn.png">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>

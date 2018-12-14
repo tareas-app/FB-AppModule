@@ -49,6 +49,7 @@ class OpenTasksTableViewController: UITableViewController {
                             let task = OpenTask()
                             task.title = document.data()["title"] as! String
                             task.taskdescription = document.data()["description"] as! String
+                            task.minpeopleneeded = document.data()["minpeopleneeded"] as! Int
                             task.assigned = document.data()["assigned"] as! Bool
                             
                             let deadline:Timestamp = document.data()["deadline"] as? Timestamp ?? Timestamp()
@@ -83,7 +84,7 @@ class OpenTasksTableViewController: UITableViewController {
                     }
             }
         } else {
-            alertMessageOke(title: "Error", message: "You need to be logged in to add a vehicle to your tribe!")
+            alertMessageOke(title: "Error", message: "You need to be logged in to perform this action!")
         }
         
     }

@@ -115,26 +115,7 @@ class ViewController: UIViewController {
                 self.ai_loading.stopAnimating()
                 self.ai_loading.isHidden = true
                 
-                
-                (Constants.baseDB).collection("clubs").document(self.clubname).collection("members").whereField("email", isEqualTo: self.tf_email.text!)
-                    .getDocuments() { (querySnapshot, err) in
-                        if let err = err {
-                            print("Error getting documents: \(err)")
-                        } else {
-                            for document in querySnapshot!.documents {
-                                print("\(document.documentID) => \(document.data())")
-                                
-                                self.defaults.set(document.data()["role"], forKey: "role")
-                                self.defaults.set(document.data()["date_of_birth"], forKey: "date_of_birth")
-                                self.defaults.set(document.data()["email"], forKey: "email")
-                                self.defaults.set(document.data()["first_name"], forKey: "first_name")
-                                self.defaults.set(document.data()["last_name"], forKey: "last_name")
-                                self.defaults.set(document.data()["club"], forKey: "club")
-                                self.defaults.set(document.data()["password"], forKey: "password")
-                            }
-                            self.performSegue(withIdentifier: "goToHome", sender: self)
-                        }
-                }
+                self.getUserData(email: self.tf_email.text!.lowercased())
 
                 
             } else {
@@ -149,6 +130,39 @@ class ViewController: UIViewController {
             }
         }
         
+    }
+    
+    func getUserData(email: String) {
+        (Constants.baseDB).collection("clubs").document(self.clubname).collection("members").whereField("email", isEqualTo: email)
+            .getDocuments() { (querySnapshot, err) in
+                if let err = err {
+                    print("Error getting documents: \(err)")
+                } else {
+                    for document in querySnapshot!.documents {
+                        print("\(document.documentID) => \(document.data())")
+                        
+                        self.defaults.set(document.data()["role"], forKey: "role")
+                        self.defaults.set(document.data()["date_of_birth"], forKey: "date_of_birth")
+                        self.defaults.set(document.data()["email"], forKey: "email")
+                        self.defaults.set(document.data()["first_name"], forKey: "first_name")
+                        self.defaults.set(document.data()["last_name"], forKey: "last_name")
+                        self.defaults.set(document.data()["club"], forKey: "club")
+                        self.defaults.set(document.data()["password"], forKey: "password")
+                    }
+                    
+                    if querySnapshot!.documents.count > 0
+                    {
+                        self.performSegue(withIdentifier: "goToHome", sender: self)
+                    }
+                    else
+                    {
+                        let alert = UIAlertController(title: "Error", message: "Error getting user information", preferredStyle: .alert)
+                        alert.addAction(UIAlertAction(title: "Oke", style: .default, handler: nil))
+                        self.present(alert, animated: true)
+                    }
+                    
+                }
+        }
     }
     
     func isValidEmail(testStr:String) -> Bool {
