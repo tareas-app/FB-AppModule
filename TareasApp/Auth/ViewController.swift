@@ -30,6 +30,8 @@ class ViewController: UIViewController {
         view.addGestureRecognizer(tap)
     }
     
+    @IBAction func unwindToLogIn(segue: UIStoryboardSegue){}
+    
     override func viewWillAppear(_ animated: Bool) {
         getClubNames()
         
@@ -153,6 +155,11 @@ class ViewController: UIViewController {
                     if querySnapshot!.documents.count > 0
                     {
                         self.performSegue(withIdentifier: "goToHome", sender: self)
+                        
+                        //empty textfields:
+                        self.tf_club.text = ""
+                        self.tf_email.text = ""
+                        self.tf_password.text = ""
                     }
                     else
                     {

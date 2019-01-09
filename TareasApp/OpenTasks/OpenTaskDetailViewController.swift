@@ -56,7 +56,8 @@ class OpenTaskDetailViewController: UIViewController {
                 "last_name": self.defaults.string(forKey: "last_name")!,
                 "role": self.defaults.string(forKey: "role")!,
             ],
-            "membersperforming": [self.defaults.string(forKey: "email")!: true],
+            "membersperforming": [self.defaults.string(forKey: "email")!],
+            "completed": false
             
             ], forDocument: reff)
            

@@ -55,6 +55,8 @@ class OpenTasksTableViewController: UITableViewController {
                             let deadline:Timestamp = document.data()["deadline"] as? Timestamp ?? Timestamp()
                             task.Deadline = deadline.dateValue()
                             
+                            task.documentID = document.documentID
+                            
                             self.OpenTasks.add(task)
                         }
                         

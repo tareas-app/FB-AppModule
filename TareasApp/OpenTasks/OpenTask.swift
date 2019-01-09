@@ -16,5 +16,6 @@ class OpenTask: NSObject {
     var Deadline = Date()
     var taskdescription: String = ""
     var minpeopleneeded: Int = 0
-
+    var completed: Bool = false
+    var documentID: String = ""
 }

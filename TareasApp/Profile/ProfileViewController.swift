@@ -8,7 +8,7 @@
 
 import UIKit
 import Firebase
-
+//goBackToLogin
 class ProfileViewController: UIViewController {
     @IBOutlet weak var lbl_name: UILabel!
         @IBOutlet weak var lbl_contactInformation: UILabel!
@@ -79,7 +79,24 @@ class ProfileViewController: UIViewController {
             alertMessageOke(title: "Error", message: "You need to be logged in to perform this action!")
         }
     }
-
+    
+    
+    @IBAction func btn_logout(_ sender: Any) {
+        let alert = UIAlertController(title: "Uitloggen", message: "Weet u zeker dat u wilt uitloggen?", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        alert.addAction(UIAlertAction(title: "Uitloggen", style: .default, handler: { (alert) in
+            let firebaseAuth = Auth.auth()
+            do {
+                try firebaseAuth.signOut()
+                self.performSegue(withIdentifier: "goBackToLogin", sender: self)
+            } catch let signOutError as NSError {
+                print ("Error signing out: %@", signOutError)
+            }
+        }))
+        
+        self.present(alert, animated: true)
+    }
+    
     func alertMessageOke(title: String, message: String) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
         let action = UIAlertAction(title: "Ok", style: .default, handler: nil)

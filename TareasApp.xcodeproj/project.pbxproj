@@ -14,6 +14,8 @@
 		7C195A832195AB6700862F9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C195A812195AB6700862F9A /* LaunchScreen.storyboard */; };
 		7C195A8E2195AB6700862F9A /* TareasAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C195A8D2195AB6700862F9A /* TareasAppTests.swift */; };
 		7C195A992195AB6700862F9A /* TareasAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C195A982195AB6700862F9A /* TareasAppUITests.swift */; };
+		7C50A14B21E6275100598134 /* MyTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C50A14A21E6275100598134 /* MyTaskViewController.swift */; };
+		7C50A14D21E6288B00598134 /* BtnComplete.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C50A14C21E6288A00598134 /* BtnComplete.png */; };
 		7CBBA63F2195B2C200EF269D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CBBA63E2195B2C200EF269D /* GoogleService-Info.plist */; };
 		7CBBA6412195B55F00EF269D /* bg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7CBBA6402195B55E00EF269D /* bg.jpeg */; };
 		7CBBA6432195B5B400EF269D /* Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CBBA6422195B5B400EF269D /* Btn.png */; };
@@ -72,6 +74,8 @@
 		7C195A942195AB6700862F9A /* TareasAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TareasAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C195A982195AB6700862F9A /* TareasAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TareasAppUITests.swift; sourceTree = "<group>"; };
 		7C195A9A2195AB6700862F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C50A14A21E6275100598134 /* MyTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTaskViewController.swift; sourceTree = "<group>"; };
+		7C50A14C21E6288A00598134 /* BtnComplete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BtnComplete.png; path = ../../../BtnComplete.png; sourceTree = "<group>"; };
 		7CBBA63E2195B2C200EF269D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7CBBA6402195B55E00EF269D /* bg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpeg; sourceTree = "<group>"; };
 		7CBBA6422195B5B400EF269D /* Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Btn.png; sourceTree = "<group>"; };
@@ -169,7 +173,7 @@
 				7CF43C9521B16BA000AD1DF1 /* OpenTasks */,
 				7CF43C9421B16B9100AD1DF1 /* MyTasks */,
 				7CF43C9621B16BA700AD1DF1 /* Profile */,
-				7C195A7A2195AB6600862F9A /* ViewController.swift */,
+				7C50A14E21E63AF900598134 /* Auth */,
 				7C195A7C2195AB6600862F9A /* Main.storyboard */,
 				7C195A7F2195AB6700862F9A /* Assets.xcassets */,
 				7C195A812195AB6700862F9A /* LaunchScreen.storyboard */,
@@ -199,6 +203,14 @@
 			path = TareasAppUITests;
 			sourceTree = "<group>";
 		};
+		7C50A14E21E63AF900598134 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				7C195A7A2195AB6600862F9A /* ViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		7CF43C7E21B164F800AD1DF1 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +218,7 @@
 				7CBBA6422195B5B400EF269D /* Btn.png */,
 				7CF43C9F21B1753600AD1DF1 /* BtnSignIn.png */,
 				7CF43CA321B1770900AD1DF1 /* BtnSignInEmpty.png */,
+				7C50A14C21E6288A00598134 /* BtnComplete.png */,
 				7CF43C7F21B1650000AD1DF1 /* TabBarIcons */,
 			);
 			path = Assets;
@@ -228,6 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				7CF43C9921B16BEF00AD1DF1 /* MyTasksTableViewController.swift */,
+				7C50A14A21E6275100598134 /* MyTaskViewController.swift */,
 			);
 			path = MyTasks;
 			sourceTree = "<group>";
@@ -381,6 +395,7 @@
 				7CBBA63F2195B2C200EF269D /* GoogleService-Info.plist in Resources */,
 				7C195A802195AB6700862F9A /* Assets.xcassets in Resources */,
 				7CF43CA021B1753600AD1DF1 /* BtnSignIn.png in Resources */,
+				7C50A14D21E6288B00598134 /* BtnComplete.png in Resources */,
 				7CF43C9121B1685600AD1DF1 /* OpenTasksG.png in Resources */,
 				7C195A7E2195AB6600862F9A /* Main.storyboard in Resources */,
 				7CF43C9021B1685600AD1DF1 /* MyTasksB.png in Resources */,
@@ -515,6 +530,7 @@
 				7CF43C9E21B16FAE00AD1DF1 /* OpenTasksTableViewCell.swift in Sources */,
 				7C195A7B2195AB6600862F9A /* ViewController.swift in Sources */,
 				7CF43CA221B1765A00AD1DF1 /* OpenTaskDetailViewController.swift in Sources */,
+				7C50A14B21E6275100598134 /* MyTaskViewController.swift in Sources */,
 				7C195A792195AB6600862F9A /* AppDelegate.swift in Sources */,
 				7CF43CA621B1792400AD1DF1 /* OpenTask.swift in Sources */,
 				7CF43C9C21B16CEA00AD1DF1 /* ProfileViewController.swift in Sources */,
